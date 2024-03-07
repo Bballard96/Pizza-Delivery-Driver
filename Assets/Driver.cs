@@ -16,8 +16,9 @@ public class Driver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      float steerAmmount = Input.GetAxis("Horizontal");
+      float steerAmmount = Input.GetAxis("Horizontal") * steerSpeed;
+      float moveAmmount = Input.GetAxis("Vertical") * moveSpeed;
       transform.Rotate(0, 0, -steerAmmount);
-      transform.Translate(0, moveSpeed, 0);
+      transform.Translate(0, moveAmmount, 0);
     }
 }
