@@ -8,7 +8,7 @@ public class Collision : MonoBehaviour
         Debug.Log("Yo get outta the way");
     }
 
-    void OnTriggerEnter2D(Collision2D other) {
+    void OnTriggerEnter2D(Collider2D other) {
         Debug.Log("yes we can see you");
     }
 }
