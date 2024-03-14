@@ -8,7 +8,7 @@ public class FollowCamera : MonoBehaviour
     // this things position (camera) should be the same as the car's position
 
 
-    void Update()
+    void LateUpdate()
     {
         transform.position = thingToFollow.transform.position + new Vector3 (0,0,-10);
     }
