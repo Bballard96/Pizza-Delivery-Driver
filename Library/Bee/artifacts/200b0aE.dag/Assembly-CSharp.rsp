@@ -374,6 +374,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Collision.cs"
 "Assets/Driver.cs"
+"Assets/FollowCamera.cs"
 -langversion:9.0
 
 /deterministic
