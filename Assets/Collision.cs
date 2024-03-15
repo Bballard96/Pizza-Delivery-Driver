@@ -13,7 +13,7 @@ public class Delivery : MonoBehaviour
     {   
         if (other.tag == "Package")
         {
-            Debug.log("Package picked up");
+            Debug.Log("Package picked up");
         }
     }
 }
