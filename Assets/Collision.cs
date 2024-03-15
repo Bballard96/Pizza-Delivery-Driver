@@ -9,6 +9,9 @@ public class Delivery : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("yes we can see you");
+        
+        // if (the thing we trigger is the package)
+        
+        // then print "package picked up" to the console
     }
 }
