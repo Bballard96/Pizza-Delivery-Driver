@@ -4,19 +4,23 @@ using UnityEngine;
 
 public class Delivery : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D other) {
+    // [SerializeField] float destroyDelay = 0.5f;
+    // bool hasPackage;
+    void OnCollisionEnter2D(Collision2D other) 
+    {
         Debug.Log("Ouch!");
     }
 
     void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.tag == "Package")
-        {
-        Debug.Log("Package picked up");
-        }
-        if (other.tag == "Customer")
-        {
-            Debug.Log("Package Delivered")
-        }
+        Debug.Log(other.tag);
+        // if (other.tag == "Package")
+        // {
+        // Debug.Log("Package picked up");
+        // }
+        // if (other.tag == "Customer")
+        // {
+        //     Debug.Log("Package Delivered");
+        // }
     }
 }
