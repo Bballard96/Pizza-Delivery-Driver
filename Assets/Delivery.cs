@@ -28,12 +28,14 @@ public class Delivery : MonoBehaviour
         {
         Debug.Log("Package picked up");
         hasPackage = true;
+        spriteRenderer.color = hasPackageColor;
         Destroy(other.gameObject, destroyDelay);
         }
         if (other.tag == "Customer" && hasPackage)
         {
             Debug.Log("Package Delivered");
             hasPackage = false;
+            spriteRenderer.color = noPackageColor;
         }
     }
 }
