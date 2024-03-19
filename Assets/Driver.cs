@@ -22,4 +22,10 @@ public class Driver : MonoBehaviour
 
     }
 
+    void OnTriggerEnter2D(Collider2D other) {
+      if (other.tag == "Speed Up") {
+        
+      }
+    }
+
 }
