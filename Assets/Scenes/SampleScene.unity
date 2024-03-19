@@ -1318,10 +1318,10 @@ MonoBehaviour:
   destroyDelay: 0.1
   hasPackageColor:
     serializedVersion: 2
-    rgba: 4281711658
+    rgba: 4293005457
   noPackageColor:
     serializedVersion: 2
-    rgba: 4281936861
+    rgba: 4278228455
 --- !u!1 &750911043
 GameObject:
   m_ObjectHideFlags: 0
