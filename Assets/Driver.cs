@@ -26,7 +26,9 @@ public class Driver : MonoBehaviour
       if (other.tag == "Speed Up") {
         moveSpeed = boostSpeed;
       }
-      
+      if (other.tag == "Slow Down") {
+        moveSpeed = slowSpeed;
+      }
     }
 
     void OnCollisionEnter2D(Collision2D other) {
